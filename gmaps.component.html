@@ -1,0 +1,18 @@
+
+<div class="overlay">
+  <ng-content></ng-content>
+</div>
+
+<agm-map
+  [latitude]="viewport.latitude"
+  [longitude]="viewport.longitude"
+  [zoom]="viewport.zoom + 1"
+  [minZoom]="viewport.minZoom + 1"
+  [maxZoom]="viewport.maxZoom + 1"
+  [style.height.px]="viewport.height"
+  [style.width.px]="viewport.width"
+  (centerChange)="centerChange($event)"
+  (zoomChange)="zoomChange($event)"
+>
+  <agm-marker [latitude]="0.0" [longitude]="0.0"></agm-marker>
+</agm-map>

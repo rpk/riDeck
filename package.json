@@ -22,8 +22,10 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
-    "deck.gl": "^4.0.6",
-    "luma.gl": "^3.0.2",
+    "deck.gl": "^4.1.0",
+    "luma.gl": "^4.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
